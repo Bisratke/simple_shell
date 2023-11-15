@@ -151,8 +151,10 @@ return (s);
 }
 
 /**
-*__sigintHandler: for puting dolar sign or prompt
-*/
+ * sigintHandler - sign  handler
+ * @sig_num : int to be handled
+ *
+ */
 void sigintHandler(__attribute__((unused))int sig_num)
 {
 _puts("\n");
