@@ -149,6 +149,10 @@ if (length != NULL)
 *ptr = p;
 return (s);
 }
+
+/**
+*__sigintHandler: for puting dolar sign or prompt
+*/
 void sigintHandler(__attribute__((unused))int sig_num)
 {
 _puts("\n");
