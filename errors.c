@@ -77,7 +77,7 @@ int i = 0;
 
 if (!str)
 return (0);
-while (*str != NULL)
+while (*str)
 {
 i += _putfd(*str++, fd);
 }
